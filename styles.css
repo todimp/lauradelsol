@@ -33,7 +33,6 @@ h2 {
   font-size: 2.5vw;
   color: #FFCC29;
   transition-duration: 1s;
-
 }
 
 .fb:hover {
@@ -45,36 +44,45 @@ h2 {
 }
 
 @keyframes multicolor {
-    0% {
-        color: #405DE6;
-    }
-    11% {
-        color: #5B51D8;
-    }
-    22% {
-        color: #833AB4;
-    }
-    33% {
-        color: #C13584;
-    }
-    44% {
-        color: #E1306C;
-    }
-    55% {
-        color: #FD1D1D;
-    }
-    66% {
-        color: #F56040;
-    }
-    77% {
-        color: #F77737;
-    }
-    88% {
-        color: #FCAF45;
-    }
-    100% {
-        color: #FFDC80;
-    }
+  0% {
+    color: #405DE6;
+  }
+
+  11% {
+    color: #5B51D8;
+  }
+
+  22% {
+    color: #833AB4;
+  }
+
+  33% {
+    color: #C13584;
+  }
+
+  44% {
+    color: #E1306C;
+  }
+
+  55% {
+    color: #FD1D1D;
+  }
+
+  66% {
+    color: #F56040;
+  }
+
+  77% {
+    color: #F77737;
+  }
+
+  88% {
+    color: #FCAF45;
+  }
+
+  100% {
+    color: #FFDC80;
+  }
 }
 
 .yt:hover {
@@ -102,7 +110,8 @@ h2 {
 .copertina {
   width: 70%;
   border-radius: 1%;
-  transition: transform .5s; /* Animation */
+  transition: transform .5s;
+  /* Animation */
 }
 
 .copertina:hover {
@@ -128,9 +137,8 @@ h2 {
   padding: 10% auto;
 }
 
-
 .div-copertine {
-  margin: 10% auto;
+  margin: 10% auto 20%;
 }
 
 .col-4, .copertina {
@@ -176,4 +184,33 @@ h2 {
 .fa-spotify:hover {
   color: #fff;
   opacity: 0.9;
+}
+
+.foot {
+  background-color: #052F00;
+  padding: 2%;
+  text-align: center;
+}
+
+.copyright {
+  text-decoration: none;
+  color: #FFCC29;
+  font-size: 0.8rem;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+@media (max-width: 992px) {
+  .album {
+    text-align: center;
+  }
+
+  .copertina {
+    width: 50%;
+    margin-top: 10%;
+  }
+
+  .fa-spotify {
+    font-size: 20vw;
+  }
 }
